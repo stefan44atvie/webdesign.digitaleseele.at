@@ -31,7 +31,7 @@
         <a class="navbar-brand me-1" href="index.php"><img src="components/media/logo/D&S_Logo_200x115.jpg" height="20px" alt="Logo" loading="lazy" /></a>
 
         <li class="nav-item">
-          <a class="nav-link text-dark" href="weoffer.php">Was wir bieten</a>
+          <a class="nav-link text-dark active" href="weoffer.php">Was wir bieten</a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-dark" href="#myoffers">My offers</a>
@@ -54,65 +54,10 @@
 </nav>
 <!-- Navbar -->
 
-<section id="firstpage">
-    <div id="intro_show">
-                <h2 class="display-4">Stefan Rüdenauer</h2>
-    </div>
-</section>
-
-<!-- #CodePenChallenge: Lightness -->
-<section id="secondpage">
-    <div class="overlay"></div>
-    <div class="text">
-        <div class="wrapper">
-            <div id="L" class="letter">W</div>
-            <div class="shadow">W</div>
-        </div>
-        <div class="wrapper">
-            <div id="I" class="letter">E</div>
-            <div class="shadow">E</div>
-        </div>
-        <div class="wrapper">
-            <div id="G" class="letter">B</div>
-            <div class="shadow">B</div>
-        </div>
-        <div class="wrapper">
-            <div id="H" class="letter">D</div>
-            <div class="shadow">D</div>
-        </div>
-        <div class="wrapper">
-            <div id="T" class="letter">E</div>
-            <div class="shadow">E</div>
-        </div>
-        <div class="wrapper">
-            <div id="N" class="letter">L</div>
-            <div class="shadow">L</div>
-        </div>
-        <div class="wrapper">
-            <div id="E" class="letter">O</div>
-            <div class="shadow">O</div>
-        </div>
-        <div class="wrapper">
-            <div id="S" class="letter">P</div>
-            <div class="shadow">P</div>
-        </div>
-        <div class="wrapper">
-            <div id="Stwo" class="letter">M</div>
-            <div class="shadow">M</div>
-        </div>
-        <div class="wrapper">
-            <div id="Stwo" class="letter">E</div>
-            <div class="shadow">E</div>
-        </div>
-        <div class="wrapper">
-            <div id="Stwo" class="letter">N</div>
-            <div class="shadow">N</div>
-        </div>
-        <div class="wrapper">
-            <div id="Stwo" class="letter">T</div>
-            <div class="shadow">T</div>
-        </div>
-    </div>
+<section id="myoffer">
+    <p>
+    Mit unserer FullStack-Webentwicklung bei <span class="firma">Webdesign Digitale Seele</span> erhalten Sie nicht nur eine Website, sondern eine lebendige digitale Erfahrung. Von der Benutzeroberfläche bis zur Datenbank sorgen wir dafür, dass Ihre Online-Präsenz nicht nur funktioniert, sondern auch eine authentische digitale Seele besitzt.
+    </p>
 </section>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
