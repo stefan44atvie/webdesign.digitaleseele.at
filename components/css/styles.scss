@@ -1,0 +1,13 @@
+* { padding: 0; margin: 0; }
+
+#firstpage{
+    display: flex;
+    justify-content: center;    
+    #intro_show{
+        margin-top:20%;
+        // align-self: center;
+        place-self: center;
+
+
+    }
+}
