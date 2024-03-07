@@ -1,12 +1,54 @@
 * { padding: 0; margin: 0; }
+
+@font-face {
+	font-family: Raleway;
+	src: url(../fonts/Raleway-Regular.ttf);
+  }
+  @font-face {
+	font-family: Baloo;
+	src: url(../fonts/Baloo-Regular.ttf);
+  }
+  
+  $standardtext:Raleway;
+  $specialintro:Baloo;
+
 .introtext{
-	padding-top:100px;
+	margin-top:30px;
+	padding-top:40px;
+	// border:1px solid grey;
+	margin-left:50px;
+	background: url("../../uploads/media/Venedig\ 2023-657ae36d16e11.jpg");
+	height:45vh;
+	position:relative;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	// background-position-y: 150px;
+}
+.vorteile_header{
+	margin-top:30px;
+	padding-top:40px;
+	// border:1px solid grey;
+	// margin-left:50px;
+	background: url("../../uploads/media/Venedig\ 2023-657ae36d16e11.jpg");
+	height:45vh;
+	position:relative;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position-y: -550px;
+}
+
+.lead{
+	padding-left:30px;
+	font-family:$specialintro;
 }
 #firstpage{
     display: flex;
     justify-content:left;    
     margin-left:40%;
-    #intro_show{
+   
+	#intro_show{
         margin-top:40%;
         // place-self: start;
 
@@ -54,6 +96,7 @@
 		padding-left: 20px;
 		padding-right: 20px;
 		padding-top: 20px;
+		
 		.letter {
 			transition: ease-out 1s;
 			transform: translateY(40%);
@@ -79,7 +122,7 @@
 
 svg {
     display: block;
-    font: 8.5em 'Montserrat';
+    font: 7.0em 'Montserrat';
     width: 960px;
     height: 300px;
     // left: -900px;
@@ -287,3 +330,181 @@ h1 {
     //   -27px 54px 1px #e2e0df, 
     //   -28px 56px 1px #e4e3e2;
   }
+
+  .maintext{
+	padding-left:10px;
+	padding-right:10px;
+	font-size:18px;
+	font-family:$standardtext;
+  }
+
+
+  // other effect
+
+  #neweffect{
+	background: #111;
+	padding-top:100px;
+  }
+  .hidden {
+	opacity:0;
+  }
+  .console-container {
+   
+	font-family:Khula;
+	font-size:3.5em;
+	text-align:center;
+	height:200px;
+	width:600px;
+	display:block;
+	position:absolute;
+	color:white;
+	top:-200px;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto;
+  }
+  .console-underscore {
+	 display:inline-block;
+	position:relative;
+	top:-0.14em;
+	left:10px;
+  }
+
+
+  .firsttext{
+	padding-top:60px;
+  }
+
+  /* Color of the links BEFORE scroll */
+.navbar-before-scroll .nav-link,
+.navbar-before-scroll .navbar-toggler-icon {
+  color: #fff;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-after-scroll .nav-link,
+.navbar-after-scroll .navbar-toggler-icon {
+  color: #4f4f4f;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-after-scroll {
+  background-color: #fff;
+}
+
+/* Transition after scrolling */
+.navbar-after-scroll {
+  transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+}
+
+/* Transition to the initial state */
+.navbar-before-scroll {
+  transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+}
+
+/* An optional height of the navbar AFTER scroll */
+.navbar.navbar-before-scroll.navbar-after-scroll {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* Navbar on mobile */
+@media (max-width: 991.98px) {
+  #main-navbar {
+    background-color: #fff;
+  }
+
+  .nav-link,
+  .navbar-toggler-icon {
+    color: #f51d1d !important;
+  }
+  #myprojects{
+    margin-top:150px;
+  }
+  #aboutme{
+    margin-top:950px;
+  }
+}
+@media (min-width: 992px) {
+  .rotate-lg {
+    transform: rotate(6deg);
+  }
+}
+
+.webintro{
+	padding-top:30px;
+	// padding-left:30px;
+	padding-right:30px;
+	// border-top:1px solid black;
+	// border-bottom:1px solid black;
+}
+#vorteile{
+	padding-top:70px;
+}
+
+.vorteile_point{
+	width:350px;
+	// background-color: #4D163D;
+	// padding-left:150px;
+
+	.vpunkt {
+		width: 0px;
+		height: 0px;
+	  	margin-left:600px;
+	  	margin-top:20px;
+		border-top: 30px solid transparent; /* skyblue */
+		border-right: 30px solid transparent; /* limegreen;  */
+		border-bottom: 30px solid transparent; /* orange; */
+		border-left: 60px solid red; 
+	  }
+	  .vpunkt1 {
+		width: 0px;
+		height: 0px;
+		margin-left:600px;
+	  	margin-top:20px;
+		border-top: 30px solid transparent; /* skyblue */
+		border-right: 30px solid transparent; /* limegreen;  */
+		border-bottom: 30px solid transparent; /* orange; */
+		border-left: 60px solid darkgoldenrod; 
+	  }
+	  .vpunkt2 {
+		width: 0px;
+		height: 0px;
+		margin-left:600px;
+	  	margin-top:20px;
+		border-top: 30px solid transparent; /* skyblue */
+		border-right: 30px solid transparent; /* limegreen;  */
+		border-bottom: 30px solid transparent; /* orange; */
+		border-left: 60px solid darkcyan; 
+	  }
+	  .vpunkt3 {
+		width: 0px;
+		height: 0px;
+		margin-left:600px;
+	  	margin-top:20px;
+		border-top: 30px solid transparent; /* skyblue */
+		border-right: 30px solid transparent; /* limegreen;  */
+		border-bottom: 30px solid transparent; /* orange; */
+		border-left: 60px solid lightgreen; 
+	  }
+	  .vpunkt4 {
+		width: 0px;
+		height: 0px;
+		margin-left:600px;
+	  	margin-top:20px;
+		border-top: 30px solid transparent; /* skyblue */
+		border-right: 30px solid transparent; /* limegreen;  */
+		border-bottom: 30px solid transparent; /* orange; */
+		border-left: 60px solid lightcoral; 
+	  }
+}
+.vorteile_text{
+	width:80%;
+	background-color: white;
+}
+
+.text_vorteil{
+	font-family:$specialintro;
+	font-size:20px;
+}

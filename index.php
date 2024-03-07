@@ -14,7 +14,7 @@
     <title>Webdesign Digitale Seele</title>
 </head>
 <body>
-<nav id="main-navbar" class="navbar navbar-expand-md fixed-top navbar-before-scroll shadow-0">
+<nav id="main-navbar" class="navbar navbar-expand-md fixed-top bg-white shadow-0">
   <!-- Container wrapper -->
   <div class="container-fluid">
     <!-- Toggle button -->
@@ -56,7 +56,7 @@
 
 <section id="firstpage">
     <div id="intro_show">
-                <h2 class="display-4">Stefan Rüdenauer</h2>
+      <h2 class="display-4">Stefan Rüdenauer</h2>
     </div>
 </section>
 
