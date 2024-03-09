@@ -25,9 +25,9 @@
 
 .vorteile_header {
   margin-top: 30px;
-  padding-top: 40px;
+  padding-top: 20px;
   background: url("../../uploads/media/Venedig 2023-657ae36d16e11.jpg");
-  height: 45vh;
+  height: 40vh;
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -244,7 +244,6 @@ h1 span {
   71% {
     top: -9rem;
     width: 0;
-    text-indent: 5px;
   }
   86% {
     top: -9rem;
@@ -374,61 +373,8 @@ h1 span {
 }
 
 #vorteile {
-  padding-top: 70px;
-}
-
-.vorteile_point {
-  width: 350px;
-}
-.vorteile_point .vpunkt {
-  width: 0px;
-  height: 0px;
-  margin-left: 600px;
-  margin-top: 20px;
-  border-top: 30px solid transparent; /* skyblue */
-  border-right: 30px solid transparent; /* limegreen;  */
-  border-bottom: 30px solid transparent; /* orange; */
-  border-left: 60px solid red;
-}
-.vorteile_point .vpunkt1 {
-  width: 0px;
-  height: 0px;
-  margin-left: 600px;
-  margin-top: 20px;
-  border-top: 30px solid transparent; /* skyblue */
-  border-right: 30px solid transparent; /* limegreen;  */
-  border-bottom: 30px solid transparent; /* orange; */
-  border-left: 60px solid darkgoldenrod;
-}
-.vorteile_point .vpunkt2 {
-  width: 0px;
-  height: 0px;
-  margin-left: 600px;
-  margin-top: 20px;
-  border-top: 30px solid transparent; /* skyblue */
-  border-right: 30px solid transparent; /* limegreen;  */
-  border-bottom: 30px solid transparent; /* orange; */
-  border-left: 60px solid darkcyan;
-}
-.vorteile_point .vpunkt3 {
-  width: 0px;
-  height: 0px;
-  margin-left: 600px;
-  margin-top: 20px;
-  border-top: 30px solid transparent; /* skyblue */
-  border-right: 30px solid transparent; /* limegreen;  */
-  border-bottom: 30px solid transparent; /* orange; */
-  border-left: 60px solid lightgreen;
-}
-.vorteile_point .vpunkt4 {
-  width: 0px;
-  height: 0px;
-  margin-left: 600px;
-  margin-top: 20px;
-  border-top: 30px solid transparent; /* skyblue */
-  border-right: 30px solid transparent; /* limegreen;  */
-  border-bottom: 30px solid transparent; /* orange; */
-  border-left: 60px solid lightcoral;
+  padding-top: 20px;
+  min-height: 100vh;
 }
 
 .vorteile_text {
@@ -437,6 +383,97 @@ h1 span {
 }
 
 .text_vorteil {
-  font-family: Baloo;
-  font-size: 20px;
+  font-family: Raleway;
+  font-size: 17px;
+}
+
+.gridtestvorteil {
+  display: grid;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  row-gap: 3em;
+  padding-left: 10px;
+}
+.gridtestvorteil .vor1pic {
+  grid-column: 3/span 1;
+  position: relative;
+}
+.gridtestvorteil .vor1pic img {
+  position: relative;
+  width: 100%;
+}
+.gridtestvorteil .vor1text {
+  padding-left: 5px;
+  grid-column: 4/span 7;
+}
+.gridtestvorteil .vor2pic {
+  grid-column: 3/span 1;
+  position: relative;
+}
+.gridtestvorteil .vor2pic img {
+  position: relative;
+  width: 100%;
+}
+.gridtestvorteil .vor2text {
+  grid-column: 4/span 7;
+}
+.gridtestvorteil .vor3pic {
+  grid-column: 3/span 1;
+  position: relative;
+}
+.gridtestvorteil .vor3pic img {
+  position: relative;
+  width: 100%;
+}
+.gridtestvorteil .vor3text {
+  grid-column: 4/span 7;
+}
+.gridtestvorteil .vor4pic {
+  grid-column: 3/span 1;
+  position: relative;
+}
+.gridtestvorteil .vor4pic img {
+  position: relative;
+  width: 100%;
+}
+.gridtestvorteil .vor4text {
+  grid-column: 4/span 7;
+}
+.gridtestvorteil .vor5pic {
+  grid-column: 3/span 1;
+  position: relative;
+}
+.gridtestvorteil .vor5pic img {
+  position: relative;
+  width: 100%;
+}
+.gridtestvorteil .vor5text {
+  grid-column: 4/span 7;
+}
+
+.vorteile_intro {
+  padding-bottom: 40px;
+  padding-left: 20px;
+}
+
+#vorteilsintro_box {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.text_vorteile {
+  font-family: Raleway;
+  font-size: 17px;
+}
+
+#ablauf {
+  min-height: 100vh;
+  background-color: black;
+  padding-top: 60px;
+  padding-left: 10px;
+}
+
+.text_ablauf {
+  font-family: Raleway;
+  font-size: 17px;
+  color: white;
 }/*# sourceMappingURL=styles.css.map */

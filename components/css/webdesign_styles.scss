@@ -1,0 +1,261 @@
+* { padding: 0; margin: 0; }
+
+@font-face {
+	font-family: Raleway;
+	src: url(../fonts/Raleway-Regular.ttf);
+  }
+  @font-face {
+	font-family: Baloo;
+	src: url(../fonts/Baloo-Regular.ttf);
+  }
+  
+  $standardtext:Raleway;
+  $specialintro:Baloo;
+
+  #firstpage{
+    display: flex;
+    justify-content:left;    
+    margin-left:40%;
+   
+	#intro_show{
+        margin-top:40%;
+        // place-self: start;
+
+    }
+}
+.lead{
+	padding-left:30px;
+	font-family:$specialintro;
+}
+.overlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 40vh;
+	z-index: 90;
+
+	background: rgb(255, 255, 255);
+	background: linear-gradient(
+		0deg,
+		rgba(255, 255, 255, 1) 75%,
+		rgba(255, 255, 255, 0.9) 80%,
+		rgba(255, 255, 255, 0.25) 95%,
+		rgba(255, 255, 255, 0) 100%
+	);
+}
+
+.text {
+    font-family: "Yanone Kaffeesatz";
+	font-size: 90px;
+	display: flex;
+	position: absolute;
+	bottom: 25vh;
+	left: 50%;
+	transform: translateX(-50%);
+    word-break: normal;
+	// user-select: none;
+
+	.wrapper {
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 20px;
+		
+		.letter {
+			transition: ease-out 1s;
+			transform: translateY(40%);
+		}
+		.shadow {
+			transform: scale(1, -1);
+			color: #999;
+			transition: ease-in 5s, ease-out 5s;
+		}
+		&:hover {
+			.letter {
+				transform: translateY(-200%);
+			}
+			.shadow {
+				opacity: 0;
+				transform: translateY(200%);
+			}
+		}
+	}
+
+    
+}
+
+// PAGE 1
+
+.introtext{
+	margin-top:30px;
+	padding-top:40px;
+	// border:1px solid grey;
+	margin-left:50px;
+	background: url("../../uploads/media/Venedig\ 2023-657ae36d16e11.jpg");
+	height:45vh;
+	position:relative;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	// background-position-y: 150px;
+}
+
+#vorteile{
+	padding-top:20px;
+	min-height:100vh;
+    padding-left:10px;
+}
+
+.vorteile_header{
+	margin-top:30px;
+	padding-top:20px;
+	// border:1px solid grey;
+	// margin-left:50px;
+	background: url("../../uploads/media/Venedig\ 2023-657ae36d16e11.jpg");
+	height:40vh;
+	position:relative;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position-y: -550px;
+}
+
+.webintro{
+	padding-top:30px;
+	// padding-left:30px;
+	padding-right:30px;
+    padding-left:10px;
+	// border-top:1px solid black;
+	// border-bottom:1px solid black;
+}
+
+.maintext{
+	padding-left:10px;
+	padding-right:10px;
+	font-size:18px;
+	font-family:$standardtext;
+  }
+#vorteilsintro_box{
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.text_vorteile{
+	font-family:$standardtext;
+	font-size:17px;
+}
+.vorteile_intro{
+	padding-bottom:40px;
+	padding-left:20px;
+}
+
+.gridtestvorteil{
+	display: grid;
+	grid-template-columns:10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+	row-gap:3em;
+	// column-gap:2em;
+	// background-color: aqua;
+	padding-left:10px;
+
+	.vor1pic{
+		grid-column:3/span 1;
+		// background-color: #767676;
+		position:relative;
+		img{
+			position:relative;
+			width:100%;
+			// grid-row: 1 / 3;
+			// width: 10em;
+		}
+	}
+	.vor1text{
+		// padding-top:15px;
+		// margin-left:-6em;
+		padding-left:5px;
+		grid-column:4/span 7;
+		// background-color: #FDB731;
+	}
+	.vor2pic{
+		grid-column:3/span 1;
+		// background-color: #767676;
+		position:relative;
+		img{
+			position:relative;
+			width:100%;
+			// grid-row: 1 / 3;
+			// width: 10em;
+		}
+	}
+	.vor2text{
+		// padding-top:15px;
+		grid-column:4/span 7;
+		// padding-left:20px;
+		// background-color: #FDB731;
+	}
+	.vor3pic{
+		grid-column:3/span 1;
+		// background-color: #767676;
+		position:relative;
+		img{
+			position:relative;
+			width:100%;
+			// grid-row: 1 / 3;
+			// width: 10em;
+		}
+	}
+	.vor3text{
+		// padding-top:15px;
+		grid-column:4/span 7;
+		// padding-left:20px;
+		// background-color: #FDB731;
+	}
+	.vor4pic{
+		grid-column:3/span 1;
+		// background-color: #767676;
+		position:relative;
+		img{
+			position:relative;
+			width:100%;
+			// grid-row: 1 / 3;
+			// width: 10em;
+		}
+	}
+	.vor4text{
+		// padding-top:15px;
+		grid-column:4/span 7;
+		// padding-left:20px;
+		// background-color: #FDB731;
+	}
+	.vor5pic{
+		grid-column:3/span 1;
+		// background-color: #767676;
+		position:relative;
+		img{
+			position:relative;
+			width:100%;
+			// grid-row: 1 / 3;
+			// width: 10em;
+		}
+	}
+	.vor5text{
+		// padding-top:15px;
+		grid-column:4/span 7;
+		// padding-left:20px;
+		// background-color: #FDB731;
+	}
+}
+
+//Abschnitt Ablauf
+
+#ablauf{
+	min-height:100vh;
+	background-color: black;
+	padding-top:60px;
+	padding-left:10px;
+}
+
+.text_ablauf{
+	font-family:$standardtext;
+	font-size:17px;
+	color:white;
+}
