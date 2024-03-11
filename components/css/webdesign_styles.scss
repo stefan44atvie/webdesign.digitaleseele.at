@@ -101,14 +101,14 @@
 }
 
 #vorteile{
-	padding-top:20px;
+	padding-top:60px;
 	min-height:100vh;
     padding-left:10px;
 }
 
 .vorteile_header{
 	margin-top:30px;
-	padding-top:20px;
+	padding-top:60px;
 	// border:1px solid grey;
 	// margin-left:50px;
 	background: url("../../uploads/media/Venedig\ 2023-657ae36d16e11.jpg");
@@ -253,9 +253,142 @@
 	padding-top:60px;
 	padding-left:10px;
 }
+#offers{
+	min-height:100vh;
+	background-color: black;
+	padding-top:40px;
+	padding-left:10px;
+}
+#startoffer{
+	min-height:100vh;
+	background-color: white;
+	padding-top:60px;
+	padding-left:10px;
+}
+#backpic{
+	min-height:100vh;
+	background-color: black;
+	padding-top:40px;
+	padding-left:10px;
+}
 
 .text_ablauf{
 	font-family:$standardtext;
 	font-size:17px;
 	color:white;
+}
+
+.text_offers{
+	font-family:$standardtext;
+	font-size:17px;
+	color:white;
+}
+
+#backfrontpic_box{
+	display:flex;
+	flex-wrap: nowrap;
+	height:100vh;
+
+	#pic_left{
+		height:100%;
+        width:100%;
+		background: url(../media/back1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+		border-top: 90px solid transparent;
+		border-right: 90px solid transparent; 
+		border-bottom: 90px solid transparent; /* orange; */
+  		border-left: 90px solid red; 
+        position:relative;
+        // background: url(../media/back1.png);
+        // background-repeat: no-repeat;
+        // background-size: cover;
+		object-fit: cover;
+        background-color: aquamarine;
+
+		// img{
+		// 	border-top: 90px solid transparent;
+		// border-right: 90px solid transparent; 
+		// border-bottom: 90px solid transparent; /* orange; */
+  		// border-left: 90px solid red; 
+		// 	object-fit: cover;
+		// }
+	}
+	#pic_right{
+		height:100%;
+        width:100%;
+        position:relative;
+        background: url(../media/front1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: aquamarine;
+	}
+}
+//TEST
+#weknowit{
+	width:100%;
+	height:50vh;
+	background-color:green;
+	// background: url(../media/front1.png);
+
+	border-top: 400px solid transparent;
+	border-right: 350px solid transparent; 
+	// border-bottom: 90px solid transparent; /* orange; */
+  	border-left: 70vw solid red; 
+	position:relative;
+	
+	img{
+		width:100%;
+		height:100%;
+		object-fit: cover;
+	}
+}
+#weknowit2{
+	width:100%;
+	height:50vh;
+
+	img{
+		position:absolute;
+		width:100%;
+		height:100%;
+		object-fit: contain;
+		// border-right: 50vw;
+		// overflow:visible;
+		z-index: -1;
+	}
+	#test1{
+		height:100%;
+        width:100%;
+		// background: url(../media/back1.png);
+        // background-repeat: no-repeat;
+        // background-size: cover;
+		border-top: 0px solid transparent;
+		border-right: 0px solid transparent; 
+		border-bottom: 100vh solid transparent; /* orange; */
+  		border-left: 100vw solid red; 
+        // position:relative;
+        // background: url(../media/back1.png);
+        // background-repeat: no-repeat;
+        // background-size: cover;
+		// object-fit: cover;
+        // background-color: lightcoral;
+		// z-index:0;
+	}
+}
+
+#pictest1{
+	width:100vw;
+	height:50vh;
+
+	#img1{
+		position:absolute;
+		width:100%;
+		height:100%;
+		object-fit: contain;
+		border-top: 0px solid transparent;
+		border-right: 0px solid transparent; 
+		border-bottom: 100vh solid transparent; /* orange; */
+  		border-left: 100vw solid red; 
+	}
+
 }
