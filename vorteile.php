@@ -38,10 +38,12 @@
             <a class="nav-link text-dark" href="vorteile.php">Ihre Vorteile</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link text-dark" href="https://webdesign.digitaleseele.at/portfolio">Mein Portfolio</a>
+            <a class="nav-link text-dark" href="#ablauf">Der Ablauf</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link text-dark" href="#ablauf">Der Ablauf</a>
+                <a class="nav-link text-dark" href="https://webdesign.digitaleseele.at/portfolio">
+                    Mein Portfolio
+                </a>
             </li>
             <li class="nav-item">
             <a class="nav-link text-dark" href="#contactme">Kontakt</a>
@@ -57,6 +59,8 @@
 <div class="vorteile_header">
 
 </div>
+
+
 
 <script src="components/scripts/texteff2.js"></script>
 <script src="components/scripts/effect2.js"></script>
