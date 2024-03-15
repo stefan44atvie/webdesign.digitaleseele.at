@@ -35,6 +35,9 @@
             <a class="nav-link text-dark" href="weoffer.php#startoffer">Was wir bieten</a>
             </li>
             <li class="nav-item">
+            <a class="nav-link text-dark" href="weoffer.php#offers">Unser Angebot</a>
+            </li>
+            <li class="nav-item">
             <a class="nav-link text-dark" href="weoffer.php#vorteile">Ihre Vorteile</a>
             </li>
             <li class="nav-item">
@@ -148,6 +151,14 @@
             <span class="vorteil_titel">Enge Zusammenarbeit</span>: Wir arbeiten eng mit unseren Kunden zusammen, um sicherzustellen, dass jedes Projekt erfolgreich umgesetzt wird und die Ziele erreicht werden
             </p>
         </div>
+        <div class="vor6pic">
+            <img src="components/media/logo/D&S_Logo_200x115.jpg">
+        </div>
+        <div class="vor6text">
+            <p class="text_vorteile">
+            <span class="vorteil_titel">Transparenz durch eigenes Kundenportal</span>: Über unser eigenes Kundenportal können Sie den Fortschritt Ihres Projekts jederzeit und von überall aus verfolgen. Sie haben die Möglichkeit, den aktuellen Stand einzusehen und bei Bedarf Dokumente herunterzuladen.
+            </p>
+        </div>
     </div>
 </section>
 
@@ -158,6 +169,32 @@
         </p>
         <br>
         <p class="text_ablauf ablauf_animation">
+          <span class="title_ablauf"><span>🗳️</span> <span>Paket wählen</span>:</span> <span>Kunden</span> <span>können</span> <span>aus</span> <span>verschiedenen</span> <span>Paketen</span> <span>wählen,</span> <span>die</span> <span>ihren</span> <span>Anforderungen</span> <span>und</span> <span>Budgets</span> <span>entsprechen.</span>
+        </p>
+        <br>
+        <br>
+        <p class="text_ablauf ablauf_animation2">
+          <span class="title_ablauf"><span>🗳️</span> <span>Abklären</span> <span>von</span> <span>Wünschen</span> <span>und</span> <span>Bedürfnissen</span>:</span> <span>Ein</span> <span>ausführliches</span> <span>Gespräch</span> <span>findet</span> <span>statt,</span> <span>um</span> <span>die</span> <span>spezifischen</span> <span>Wünsche</span> <span>und</span> <span>Bedürfnisse</span> <span>des</span> <span>Kunden</span> <span>zu</span> <span>klären</span> <span>und</span> <span>ein</span> <span>genaues</span> <span>Verständnis</span> <span>für</span> <span>das</span> <span>Projekt</span> <span>zu</span> <span>entwickeln.</span>
+        </p>
+        <br>
+        <br>
+        <p class="text_ablauf ablauf_animation3">
+          <span class="title_ablauf"><span>🗳️</span> <span>Erstes</span> <span>Coding,</span> <span>entwickeln</span> <span>von</span> <span>individuellen</span> <span>Lösungen,</span> <span>Tests</span>:</span> 
+        </p>
+        <p class="text_ablauf ablauf_animation4">
+          <span class="unterpunkt">👍</span> <span>Es</span> <span>wird</span> <span>mit</span> <span>dem</span> <span>ersten</span> <span>Coding-Prozess</span> <span>begonnen,</span> <span>bei</span> <span>dem</span> <span>individuelle</span> <span>Lösungen</span> <span>entwickelt</span> <span>werden,</span> <span>die</span> <span>den</span> <span>Anforderungen</span> <span>des</span> <span>Kunden</span> <span>entsprechen.</span>
+        </p>
+        <p class="text_ablauf ablauf_animation5">
+          <span class="unterpunkt">👍</span> <span>Regelmäßige</span> <span>Tests</span> <span>werden</span> <span>durchgeführt,</span> <span>um</span> <span>sicherzustellen,</span> <span>dass</span> <span>die</span> <span>Webseite</span> <span>reibungslos</span> <span>funktioniert</span> <span>und</span> <span>eine</span> <span>optimale</span> <span>Benutzererfahrung</span> <span>bietet.</span>
+          </p>
+        </p>
+        <br>
+        <br>
+        <p class="text_ablauf ablauf_animation6">
+          <span class="title_ablauf"><span>🗳️</span> <span>Veröffentlichung</span>:</span> <span>Die</span> <span>Webseite</span> <span>wird</span> <span>veröffentlicht,</span> <span>wobei</span> <span>sicher</span> <span>gestellt</span> <span>wird,</span> <span>dass</span> <span>sie</span> <span>für</span> <span>die</span> <span>Zielgruppe</span> <span>des</span> <span>Kunden</span> <span>zugänglich</span> <span>ist</span> <span>und</span> <span>die</span> <span>gewünschten</span> <span>Ziele</span> <span>erfüllt.</span>
+        </p>
+
+        <!-- <p class="text_ablauf ablauf_animation">
             <span class="title_ablauf"><span>1. **Jederzeit erreichbar**</span></span><span>: Wir</span> <span>stehen</span> <span>Ihnen</span> <span>jederzeit</span> <span>zur</span> <span>Verfügung,</span> <span>um</span> <span>Ihre</span> <span>Fragen</span> <span>zu</span> <span>beantworten,</span> <span>Ihre</span> <span>Anliegen</span> <span>anzuhören</span> <span>und</span> <span>mit</span> <span>Ihnen</span> <span>gemeinsam</span> <span>an</span> <span>der</span> <span>Umsetzung</span> <span>Ihrer</span> <span>Vision</span> <span>zu</span> <span>arbeiten.</span>
         </p>
         <br>
@@ -174,7 +211,7 @@
         <br>
         <p class="text_ablauf ablauf_animation4">
         <span class="title_ablauf"><span>4.</span> <span>**Kundenzentrierter</span> <span>Ansatz**</span></span><span>:</span> <span>Ihre</span> <span>Zufriedenheit</span> <span>liegt</span> <span>uns</span> <span>am</span> <span>Herzen.</span> <span>Deshalb</span> <span>nehmen</span> <span>wir</span> <span>uns</span> <span>die</span> <span>Zeit,</span> <span>Ihre</span> <span>Bedürfnisse</span> <span>genau</span> <span>zu</span> <span>verstehen</span> <span>und</span> <span>sicherzustellen,</span> <span>dass</span> <span>das</span> <span>Endprodukt</span> <span>genau</span> <span>Ihren</span> <span>Erwartungen</span> <span>entspricht.</span> <span>Ihre</span> <span>Wünsche</span> <span>und</span> <span>Anregungen</span> <span>fließen</span> <span>kontinuierlich</span> <span>in</span> <span>den</span> <span>Entwicklungsprozess</span> <span>ein.</span>
-        </p>
+        </p> -->
         <br>
         <br>
         <p class="text_ablauf_intro">
