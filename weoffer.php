@@ -81,7 +81,7 @@
 <section id="offers">
     <div id="stackdevelop">
       <div id="textfirst"> 
-        <p>
+        <p class="text_offers_standard">
           Ich spezialisiere mich darauf, moderne und responsive Webdesigns zu kreieren, die sich nahtlos an verschiedene Bildschirmgrößen anpassen und gleichzeitig ein ästhetisch ansprechendes Benutzererlebnis bieten. Von der Konzeption bis zur Umsetzung lege ich großen Wert darauf, dass Ihre Website nicht nur technisch ausgefeilt ist, sondern auch Ihre Markenidentität widerspiegelt und Ihre Besucher beeindruckt.
         </p>
       </div>
@@ -89,22 +89,34 @@
         <img src="components/media/front1.png" id="bild2" width="500px">
       </div>
       <div id="textright" class="text_animation">
-        <p class="text_offers">
-          <span>Als</span> <span>Frontend-Entwickler</span> <span>konzentriere</span> <span>ich</span> <span>mich</span> <span>darauf</span><span>,</span> <span>intuitive</span> <span>Benutzeroberflächen</span> <span>zu</span> <span>gestalten</span> <span>und</span> <span>zu</span> <span>programmieren</span><span>,</span> <span>die</span> <span>eine</span> <span>nahtlose</span> <span>Interaktion</span> <span>ermöglichen<span><span>.</span>
-        </p>
+        <div id="inline_text">
+          <div id="reihe1"></div>
+          <div id="reihe2">
+              <p class="text_offers">
+                <span>Als</span> <span>Frontend-Entwickler</span> <span>konzentriere</span> <span>ich</span> <span>mich</span> <span>darauf</span><span>,</span> <span>intuitive</span> <span>Benutzeroberflächen</span> <span>zu</span> <span>gestalten</span> <span>und</span> <span>zu</span> <span>programmieren</span><span>,</span> <span>die</span> <span>eine</span> <span>nahtlose</span> <span>Interaktion</span> <span>ermöglichen<span><span>.</span>
+              </p>
+          </div>
+          <div id="reihe3"></div>
+        </div>
       </div>
       <div id="textleft" class="text_animation">
-        <p class="text_offers">
-          <span>Ich</span> <span>biete</span> <span>ein</span> <span>ansprechendes</span> <span>Backend-Webdesign</span> <span>inklusive</span> <span>MySQL-Datenbankintegration</span> <span>an,</span> <span>das</span> <span>nicht</span> <span>nur</span> <span>die</span> <span>Funktionalität</span> <span>Ihrer</span> <span>Website</span> <span>unterstützt,</span> <span>sondern</span> <span>auch</span> <span>eine</span> <span>nahtlose</span> <span>Datenverwaltung</span> <span>ermöglicht.</span> <span>Durch</span> <span>eine</span> <span>benutzerfreundliche</span> <span>Schnittstelle</span> <span>und</span> <span>effiziente</span> <span>Datenbankstrukturen</span> <span>sorge</span> <span>ich</span> <span>dafür,</span> <span>dass</span> <span>Ihr</span> <span>Backend</span> <span>nicht</span> <span>nur</span> <span>professionell</span> <span>aussieht,</span> <span>sondern</span> <span>auch</span> <span>reibungslos</span> <span>funktioniert</span> <span>und</span> <span>Ihnen</span> <span>dabei</span> <span>hilft,</span> <span>Ihre</span> <span>Geschäftsprozesse</span> <span>optimal</span> <span>zu</span> <span>steuern.</span>
-      </p>
+        <div id="leftline_text">
+          <div id="leftr1"></div>
+          <div id="leftr2">
+              <p class="text_offers">
+                <span>Ich</span> <span>biete</span> <span>ein</span> <span>ansprechendes</span> <span>Backend-Webdesign</span> <span>inklusive</span> <span>MySQL-Datenbankintegration</span> <span>an,</span> <span>das</span> <span>nicht</span> <span>nur</span> <span>die</span> <span>Funktionalität</span> <span>Ihrer</span> <span>Website</span> <span>unterstützt,</span> <span>sondern</span> <span>auch</span> <span>eine</span> <span>nahtlose</span> <span>Datenverwaltung</span> <span>ermöglicht.</span> <span>Durch</span> <span>eine</span> <span>benutzerfreundliche</span> <span>Schnittstelle</span> <span>und</span> <span>effiziente</span> <span>Datenbankstrukturen</span> <span>sorge</span> <span>ich</span> <span>dafür,</span> <span>dass</span> <span>Ihr</span> <span>Backend</span> <span>nicht</span> <span>nur</span> <span>professionell</span> <span>aussieht,</span> <span>sondern</span> <span>auch</span> <span>reibungslos</span> <span>funktioniert</span> <span>und</span> <span>Ihnen</span> <span>dabei</span> <span>hilft,</span> <span>Ihre</span> <span>Geschäftsprozesse</span> <span>optimal</span> <span>zu</span> <span>steuern.</span>
+              </p>
+          </div>
+          <div class="leftr3"></div>
+        </div>
       </div>
       <div id="picright">
         <img src="components/media/back2.png" id="bild" width="500px">
       </div>
       <div id="textende">
-        <p class="text_offers">
-          Als Fullstack-Webdesigner biete ich umfassende Lösungen, die sowohl das Frontend als auch das Backend Ihrer Website abdecken. Von der Entwicklung ansprechender Benutzeroberflächen bis zur Implementierung robuster Backend-Systeme mit Datenbankintegration - mein Ziel ist es, ganzheitliche Webdesign-Lösungen anzubieten, die Ihren Anforderungen entsprechen und Ihre Online-Präsenz auf ein neues Niveau heben.
-      </p>
+        <p class="text_offers_standard">
+            Als Fullstack-Webdesigner biete ich umfassende Lösungen, die sowohl das Frontend als auch das Backend Ihrer Website abdecken. Von der Entwicklung ansprechender Benutzeroberflächen bis zur Implementierung robuster Backend-Systeme mit Datenbankintegration - mein Ziel ist es, ganzheitliche Webdesign-Lösungen anzubieten, die Ihren Anforderungen entsprechen und Ihre Online-Präsenz auf ein neues Niveau heben.
+          </p>
       </div>
     </div>
 </section>
@@ -193,25 +205,6 @@
         <p class="text_ablauf ablauf_animation6">
           <span class="title_ablauf"><span>🗳️</span> <span>Veröffentlichung</span>:</span> <span>Die</span> <span>Webseite</span> <span>wird</span> <span>veröffentlicht,</span> <span>wobei</span> <span>sicher</span> <span>gestellt</span> <span>wird,</span> <span>dass</span> <span>sie</span> <span>für</span> <span>die</span> <span>Zielgruppe</span> <span>des</span> <span>Kunden</span> <span>zugänglich</span> <span>ist</span> <span>und</span> <span>die</span> <span>gewünschten</span> <span>Ziele</span> <span>erfüllt.</span>
         </p>
-
-        <!-- <p class="text_ablauf ablauf_animation">
-            <span class="title_ablauf"><span>1. **Jederzeit erreichbar**</span></span><span>: Wir</span> <span>stehen</span> <span>Ihnen</span> <span>jederzeit</span> <span>zur</span> <span>Verfügung,</span> <span>um</span> <span>Ihre</span> <span>Fragen</span> <span>zu</span> <span>beantworten,</span> <span>Ihre</span> <span>Anliegen</span> <span>anzuhören</span> <span>und</span> <span>mit</span> <span>Ihnen</span> <span>gemeinsam</span> <span>an</span> <span>der</span> <span>Umsetzung</span> <span>Ihrer</span> <span>Vision</span> <span>zu</span> <span>arbeiten.</span>
-        </p>
-        <br>
-        <br>
-        <p class="text_ablauf ablauf_animation2">
-        <span class="title_ablauf"><span>2. **Individuelle</span> <span>Lösungen</span> <span>für</span> <span>Ihre</span> <span>Website**</span></span>: <span>Wir</span> <span>verstehen,</span> <span>dass</span> <span>jede</span> <span>Website</span> <span>einzigartig</span> <span>ist.</span> <span>Daher</span> <span>entwickeln</span> <span>wir</span> <span>individuelle</span> <span>Lösungen,</span> <span>die</span> <span>Ihren</span> <span>spezifischen</span> <span>Anforderungen</span> <span>und</span> <span>Zielen</span> <span>entsprechen.</span> <span>Von</span> <span>der</span> <span>Gestaltung</span> <span>bis</span> <span>zur</span> <span>Funktionalität</span> <span>-</span> <span>wir</span> <span>gehen</span> <span>auf</span> <span>Ihre</span> <span>Wünsche</span> <span>ein.</span>
-        </p>    
-        <br>
-        <br>
-        <p class="text_ablauf ablauf_animation3">
-        <span class="title_ablauf"><span>3.</span> <span>**Transparenz</span> <span>durch</span> <span>eigenes</span> <span>Kundenportal**</span></span><span>:</span> <span>Über</span> <span>unser</span> <span>eigenes</span> <span>Kundenportal</span> <span>können</span> <span>Sie</span> <span>den</span> <span>Fortschritt</span> <span>Ihres</span> <span>Projekts</span> <span>jederzeit</span> <span>und</span> <span>von</span> <span>überall</span> <span>aus</span> <span>verfolgen.</span> <span>Sie</span> <span>haben</span> <span>die</span> <span>Möglichkeit,</span> <span>den</span> <span>aktuellen</span> <span>Stand</span> <span>einzusehen</span> <span>und</span> <span>bei</span> <span>Bedarf</span> <span>Dokumente</span> <span>herunterzuladen.</span>
-        </p>
-        <br>
-        <br>
-        <p class="text_ablauf ablauf_animation4">
-        <span class="title_ablauf"><span>4.</span> <span>**Kundenzentrierter</span> <span>Ansatz**</span></span><span>:</span> <span>Ihre</span> <span>Zufriedenheit</span> <span>liegt</span> <span>uns</span> <span>am</span> <span>Herzen.</span> <span>Deshalb</span> <span>nehmen</span> <span>wir</span> <span>uns</span> <span>die</span> <span>Zeit,</span> <span>Ihre</span> <span>Bedürfnisse</span> <span>genau</span> <span>zu</span> <span>verstehen</span> <span>und</span> <span>sicherzustellen,</span> <span>dass</span> <span>das</span> <span>Endprodukt</span> <span>genau</span> <span>Ihren</span> <span>Erwartungen</span> <span>entspricht.</span> <span>Ihre</span> <span>Wünsche</span> <span>und</span> <span>Anregungen</span> <span>fließen</span> <span>kontinuierlich</span> <span>in</span> <span>den</span> <span>Entwicklungsprozess</span> <span>ein.</span>
-        </p> -->
         <br>
         <br>
         <p class="text_ablauf_intro">
@@ -219,9 +212,6 @@
         </p>
     </div>
 
-</section>
-
-<section id="tesse">
 </section>
 <script src="components/scripts/texteff2.js"></script>
 <script src="components/scripts/effect2.js"></script>
