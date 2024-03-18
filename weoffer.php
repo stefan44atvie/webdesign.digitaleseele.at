@@ -49,7 +49,7 @@
               </a>
             </li>
             <li class="nav-item">
-            <a class="nav-link text-dark" href="#contactme">Kontakt</a>
+            <a class="nav-link text-dark" href="contact.php">Kontakt</a>
             </li>
         </ul>
     </div>
