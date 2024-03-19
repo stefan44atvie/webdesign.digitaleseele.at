@@ -1251,4 +1251,41 @@ img#bild2 {
 #testrows #right1 {
   grid-column: 2/span 1;
   background-color: red;
+}
+
+.ang_titel {
+  font-family: RalewayBold;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.angebote_text {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.ang_text {
+  font-family: Raleway;
+  font-size: large;
+  color: black;
+}
+
+.basisangebote_text {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.standardangebote_text {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.premiumangebote_text {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.addonangebote_text {
+  padding-left: 10px;
+  padding-right: 10px;
 }/*# sourceMappingURL=webdesign_styles.css.map */

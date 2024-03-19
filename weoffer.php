@@ -27,31 +27,32 @@
 
     <!-- Collapsible wrapper -->
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <!-- Logo -->
-            <a class="navbar-brand me-1" href="index.php"><img src="components/media/logo/D&S_Logo_200x115.jpg" height="20px" alt="Logo" loading="lazy" /></a>
-
-            <li class="nav-item">
-            <a class="nav-link text-dark" href="weoffer.php#startoffer">Was wir bieten</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link text-dark" href="weoffer.php#offers">Unser Angebot</a>
-            </li>
-            <li class="nav-item">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <a class="navbar-brand me-1" href="index.php"><img src="components/media/logo/D&S_Logo_200x115.jpg" height="20px" alt="Logo" loading="lazy" /></a>
+        <li class="nav-item">
+            <a class="nav-link text-dark" href="weoffer.php">Was wir bieten</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" href="weoffer.php#offers">Spezialisierung</a>
+        </li>
+        <li class="nav-item">
             <a class="nav-link text-dark" href="weoffer.php#vorteile">Ihre Vorteile</a>
-            </li>
-            <li class="nav-item">
+        </li>
+        <li class="nav-item">
             <a class="nav-link text-dark" href="weoffer.php#ablauf">Der Ablauf</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark" href="https://webdesign.digitaleseele.at/portfolio">
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" href="angebote.php">Unsere Angebote</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" href="https://webdesign.digitaleseele.at/portfolio">
                 Mein Portfolio
-              </a>
-            </li>
-            <li class="nav-item">
+            </a>
+        </li>
+        <li class="nav-item">
             <a class="nav-link text-dark" href="contact.php">Kontakt</a>
-            </li>
-        </ul>
+        </li>
+      </ul>
     </div>
     <!-- Collapsible wrapper -->
 

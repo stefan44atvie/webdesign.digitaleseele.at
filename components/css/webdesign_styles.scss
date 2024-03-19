@@ -1577,3 +1577,34 @@ img#bild {
 		background-color: red;
 	}
 }
+
+.ang_titel{
+	font-family:$titlebold;
+	padding-top:60px;
+	text-align:center;
+}
+.angebote_text{
+	padding-left:10px;
+	padding-right:10px;
+}
+.ang_text{
+	font-family:$standardtext;
+	font-size:large;
+	color:black;
+}
+.basisangebote_text{
+	padding-left:10px;
+	padding-right:10px;
+}
+.standardangebote_text{
+	padding-left:10px;
+	padding-right:10px;
+}
+.premiumangebote_text{
+	padding-left:10px;
+	padding-right:10px;
+}
+.addonangebote_text{
+	padding-left:10px;
+	padding-right:10px;
+}
