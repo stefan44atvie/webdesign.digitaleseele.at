@@ -1,4 +1,5 @@
 var front = document.getElementsByClassName("tag");
+var front1 = document.getElementsByClassName("tag1");
   for(i=0;i<=front.length;i++){
     if(front[i].innerHTML == "Fullstack"){
       front[i].style.backgroundColor="blue";

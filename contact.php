@@ -75,7 +75,7 @@
             <!-- <p class="fw-bold text-center"><em>Anfrg?</em></p> -->
 
             <p class="maintext text-muted mb-4 text-center">
-            Für alle Anfragen, Zusammenarbeitswünsche oder Fragen zum Angebot von Webdesign Digitale Seele stehen wir gerne zur Verfügung. Bitte kontaktieren Sie uns unter <span class="mail_link">webdesign (at) digitaleseele (dot) at</span>. 
+            Für alle Anfragen, Zusammenarbeitswünsche oder Fragen zum Angebot von Webdesign Digitale Seele stehen wir gerne zur Verfügung. Bitte kontaktieren Sie uns unter der Telefonnummer +43 664 434 2127 (Mo-Fr 9:00 - 16:30) oder <span class="mail_link">webdesign (at) digitaleseele (dot) at</span>. 
             </p>
           </div>
         </div>
