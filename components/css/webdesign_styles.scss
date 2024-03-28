@@ -106,6 +106,7 @@
     background-repeat: no-repeat;
     background-size: cover;
 	min-height:100vh;
+  // filter: blur(5.9px) grayscale(0.87) hue-rotate(360deg) opacity(0.4);
 }
 
 .introtext{
@@ -113,12 +114,12 @@
 	padding-top:40px;
 	// border:1px solid grey;
 	margin-left:50px;
-	background: url("../../uploads/media/Venedig\ 2023-657ae36d16e11.jpg");
+	// background: url("../../uploads/media/Venedig\ 2023-657ae36d16e11.jpg");
 	height:45vh;
 	position:relative;
 	background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
 	// background-position-y: 150px;
 }
 
@@ -144,21 +145,23 @@
 }
 
 .webintro{
+  // position:absolute;
 	padding-top:30px;
 	// padding-left:30px;
 	padding-right:30px;
-    padding-left:10px;
+  padding-left:10px;
 	// border-top:1px solid black;
 	// border-bottom:1px solid black;
 }
 
 .maintext{
 	padding-left:10px;
-	text-indent: 50px;
+	// text-indent: 50px;
 	// letter-spacing: 3px;
 	padding-right:10px;
 	font-size:large;
-	font-family:$standardtext;
+	font-family: Arial, Helvetica, sans-serif;
+  //$standardtext;
   }
 #vorteilsintro_box{
 	padding-left:10px;
@@ -185,6 +188,10 @@
 .vorteile_intro{
 	padding-bottom:40px;
 	padding-left:20px;
+}
+
+.vorstellung{
+  padding-top:20px;
 }
 
 .gridtestvorteil{
@@ -446,10 +453,27 @@
 	}
 
 #startoffer{
+  background: url(../media/background/Venedig\ 2023-657ae36d16e11.jpg);
+  background-size: cover;
 	min-height:100vh;
 	background-color: white;
 	padding-top:60px;
 	padding-left:10px;
+  box-shadow: 0 12px 16px 17px rgba(246, 243, 243, 0.24),18px 17px 50px 5px rgba(245, 241, 241, 0.19);
+  // filter: blur(3.1px);
+  // opacity:0.2;
+}
+
+#startframe{
+  min-height:100vh;
+
+  img{
+    position:relative;
+    width:100%;
+    height:100%;
+    filter:blur(2.1px);
+    opacity:0.3;
+  }
 }
 #backpic{
 	min-height:100vh;
@@ -1709,4 +1733,70 @@ img#bild {
 .angebote_addons{
   padding-bottom:15px;
   background-color: black;
+}
+
+.tex_intro{
+  font-family:$specialintro;
+  font-size:large;
+  font-style: italic;
+  padding-left:50px;
+  padding-right:50px;
+}
+
+.image_pagetext{
+  position:relative;
+  width:100vw;
+  height:40vh;
+
+  .caption_boldtext{
+    // width: 283px;
+    // height: 50px;
+    top: 140px;
+    left: 0px;
+    position:absolute;
+    width:100%;
+    height:min-content;
+    // background: hsla(0, 0%, 100%, 0.45);
+    padding-left:50px;
+    padding-right:50px;
+    
+    p{
+      font-family:$specialintro;
+      font-size:large;
+      font-style: italic;
+    }
+  }
+  .caption_introtext{
+    top: 180px;
+    left: 0px;
+    position:absolute;
+    width:100%;
+    height:min-content;
+    // background: hsla(0, 0%, 100%, 0.45);
+    padding-left:20px;
+    padding-right:20px;
+    
+    p{
+      font-size:large;
+	    font-family: Arial, Helvetica, sans-serif;
+    }
+  }
+}
+
+.introtext{
+  // top: 0px;
+  // left: 0px;
+  // position:absolute;
+  width:100%;
+  // height:min-content;
+  // background: hsla(0, 0%, 100%, 0.45);
+  padding-left:0px;
+  padding-right:60px;
+  
+  p{
+    font-family:$standardtext;
+    font-style: normal;
+    font-size:large;
+      // font-family: Arial, Helvetica, sans-serif;
+  }
 }

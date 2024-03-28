@@ -538,7 +538,7 @@
         </div>
         <div>
             <div class="container mb-2">
-                <div class="row row-cols-lg-3 row-cols-md-3 space justify-content-start">
+                <div class="row row-cols-lg-3 row-cols-3 space justify-content-start">
                     <?php 
                         echo $tbodyADD;
                     ?>        
