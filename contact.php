@@ -1,5 +1,5 @@
 <?php 
-    // require "components/database/db_connect.php";
+  require "./mtest.php";
 
 
 ?>
@@ -78,6 +78,9 @@
             Für alle Anfragen, Zusammenarbeitswünsche oder Fragen zum Angebot von Webdesign Digitale Seele stehen wir gerne zur Verfügung. Bitte kontaktieren Sie uns unter der Telefonnummer +43 664 434 2127 (Mo-Fr 9:00 - 16:30) oder <span class="mail_link">webdesign (at) digitaleseele (dot) at</span>. 
             </p>
           </div>
+          <form method="POST">
+            <input type="submit" name="sendEMail" class="form-control btn btn-primary mt-2 button_shadow" value="Button1" />           
+          </form>
         </div>
 
       </div>
