@@ -1,6 +1,5 @@
 <?php 
-  require "./mtest.php";
-
+  require_once "./mtest.php";
 
 ?>
 
@@ -15,28 +14,24 @@
     <title>Webdesign Digitale Seele</title>
 </head>
 <body class="contactpage">
-<nav id="main-navbar" class="navbar navbar-expand-md fixed-top bg-white shadow-0">
-  <!-- Container wrapper -->
+<nav class="navbar navbar-expand-lg bg-light fixed-top">
   <div class="container-fluid">
-    <!-- Toggle button -->
-    <button data-mdb-collapse-init class="navbar-toggler" type="button" data-mdb-toggle="collapse"
-            data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-      <i class="fas fa-bars"></i>
+    <a class="navbar-brand" href="index.php">
+        <img src = "components/media/logo/D&S_Logo_200x115.jpg" height="20px" alt ="menu">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
     </button>
-
-    <!-- Collapsible wrapper -->
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-    <a class="navbar-brand me-1" href="index.php"><img src="components/media/logo/D&S_Logo_200x115.jpg" height="20px" alt="Logo" loading="lazy" /></a>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-            <a class="nav-link text-dark" href="weoffer.php">Was wir bieten</a>
+          <a class="nav-link active" aria-current="page" href="weoffer.php#">Was wir bieten</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-dark" href="weoffer.php#offers">Spezialisierung</a>
+          <a class="nav-link" href="weoffer.php#offers">Spezialisierung</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-dark" href="weoffer.php#vorteile">Ihre Vorteile</a>
+            <a class="nav-link" href="weoffer.php#vorteile">Ihre Vorteile</a>
         </li>
         <li class="nav-item">
             <a class="nav-link text-dark" href="weoffer.php#ablauf">Der Ablauf</a>
@@ -52,12 +47,9 @@
         <li class="nav-item">
             <a class="nav-link text-dark" href="contact.php">Kontakt</a>
         </li>
-        </ul>
+      </ul>
     </div>
-    <!-- Collapsible wrapper -->
-
   </div>
-  <!-- Container wrapper -->
 </nav>
 <!-- Navbar -->
 
@@ -72,15 +64,48 @@
             <h2 class="fw-bold text-center">
               <span class="text-black">Kontakt</span>
             </h2>
-            <!-- <p class="fw-bold text-center"><em>Anfrg?</em></p> -->
-
-            <p class="maintext text-muted mb-4 text-center">
-            Für alle Anfragen, Zusammenarbeitswünsche oder Fragen zum Angebot von Webdesign Digitale Seele stehen wir gerne zur Verfügung. Bitte kontaktieren Sie uns unter der Telefonnummer +43 664 434 2127 (Mo-Fr 9:00 - 16:30) oder <span class="mail_link">webdesign (at) digitaleseele (dot) at</span>. 
-            </p>
+            <form method="POST" class="">
+            <div class="contactform">
+              <div id="name">
+                <label for="floatingInputGrid" class="bg-success input_title">Ihr Name</label>
+                <input type="text" class="form-control" placeholder="Ihr Name" name="namen"> 
+              </div>
+              <div id="firma">
+                <label for="floatingInputGrid" class="bg-success input_title">Firma</label>
+                <input type="text" class="form-control" placeholder="Firma" name="firma"> 
+              </div>
+              <div id="email">
+                <label for="floatingInputGrid" class="bg-success input_title">email</label>
+                <input type="text" class="form-control" placeholder="email" name="email"> 
+              </div>
+              <div id="phone">
+                <label for="floatingInputGrid" class="bg-success input_title">Telefonnummer</label>
+                <input type="text" class="form-control" placeholder="Telefonnummer" name="phone"> 
+              </div>
+              <div id="theme">
+                <label for="floatingInputGrid" class="bg-success input_title">Thema Ihres Anliegens</label>
+                <input type="text" class="form-control" placeholder="Thema Ihres Anliegens" name="theme"> 
+              </div>
+              <div id="details">
+                <label for="floatingInputGrid" class="bg-success input_title">Details Ihres Anliegens</label>
+                <textarea id="description_details" name="description_details" rows="7" ><?php echo $details_ku; ?>
+                </textarea> 
+              </div>
+              <div id="checkbox">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDisabled" required>
+                <label class="form-check-label" for="flexCheckDisabled">
+                  JA, ich stimme zu, dass meine Daten verarbeitet werden.
+                </label>
+              </div>
+              <div id="button">
+                <input type="submit" name="sendEmail" class="form-control btn btn-primary mt-2 button_shadow" value="Anfrage absenden" /> 
+              </div>
+            </div>
+            
           </div>
-          <form method="POST">
-            <input type="submit" name="sendEMail" class="form-control btn btn-primary mt-2 button_shadow" value="Button1" />           
+          
           </form>
+          
         </div>
 
       </div>

@@ -424,28 +424,24 @@
     <title>Webdesign Digitale Seele</title>
 </head>
 <body class="">
-<nav id="main-navbar" class="navbar navbar-expand-md fixed-top bg-white shadow-0">
-  <!-- Container wrapper -->
+<nav class="navbar navbar-expand-lg bg-light fixed-top">
   <div class="container-fluid">
-    <!-- Toggle button -->
-    <button data-mdb-collapse-init class="navbar-toggler" type="button" data-mdb-toggle="collapse"
-            data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-      <i class="fas fa-bars"></i>
+    <a class="navbar-brand" href="index.php">
+        <img src = "components/media/logo/D&S_Logo_200x115.jpg" height="20px" alt ="menu">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
     </button>
-
-    <!-- Collapsible wrapper -->
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-    <a class="navbar-brand me-1" href="index.php"><img src="components/media/logo/D&S_Logo_200x115.jpg" height="20px" alt="Logo" loading="lazy" /></a>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-            <a class="nav-link text-dark" href="weoffer.php">Was wir bieten</a>
+          <a class="nav-link active" aria-current="page" href="weoffer.php#">Was wir bieten</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-dark" href="weoffer.php#offers">Spezialisierung</a>
+          <a class="nav-link" href="weoffer.php#offers">Spezialisierung</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-dark" href="weoffer.php#vorteile">Ihre Vorteile</a>
+            <a class="nav-link" href="weoffer.php#vorteile">Ihre Vorteile</a>
         </li>
         <li class="nav-item">
             <a class="nav-link text-dark" href="weoffer.php#ablauf">Der Ablauf</a>
@@ -461,12 +457,9 @@
         <li class="nav-item">
             <a class="nav-link text-dark" href="contact.php">Kontakt</a>
         </li>
-        </ul>
+      </ul>
     </div>
-    <!-- Collapsible wrapper -->
-
   </div>
-  <!-- Container wrapper -->
 </nav>
 <!-- Navbar -->
 <section id = "UnsereAngebote">
@@ -504,7 +497,7 @@
         </div>
         <div>
             <div class="container mb-4">
-                <div class="row row-cols-lg-4 row-cols-md-3 space justify-content-around">
+                <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 space justify-content-start">
                     <?php 
                         echo $tbodyPerw;
                     ?>        
@@ -532,13 +525,13 @@
     <div class="angebote_addons">
         <div class="addonangebote"></div>
         <div class="container addonangebote_text">
-            <p class=" ang_text white_text">
+            <p class="ang_text white_text">
                 Unsere Pakete bei Webdesign Digitale Seele bieten eine solide Grundlage für Ihre Webdesign-Bedürfnisse, und darüber hinaus können Sie auch aus einer Vielzahl von Erweiterungen und <span class="bold_mark">Addons</span> wählen, um die Funktionalität Ihrer Website weiter zu verbessern und anzupassen.            
             </p>
         </div>
         <div>
             <div class="container mb-2">
-                <div class="row row-cols-lg-3 row-cols-3 space justify-content-start">
+                <div class="row row-cols-lg-3 row-cols-sm-3 space justify-content-start">
                     <?php 
                         echo $tbodyADD;
                     ?>        
