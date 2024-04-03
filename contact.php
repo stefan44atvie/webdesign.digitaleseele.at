@@ -1,6 +1,5 @@
 <?php 
-  require "./mtest.php";
-
+  require_once "./mtest.php";
 
 ?>
 
@@ -72,15 +71,48 @@
             <h2 class="fw-bold text-center">
               <span class="text-black">Kontakt</span>
             </h2>
-            <!-- <p class="fw-bold text-center"><em>Anfrg?</em></p> -->
-
-            <p class="maintext text-muted mb-4 text-center">
-            Für alle Anfragen, Zusammenarbeitswünsche oder Fragen zum Angebot von Webdesign Digitale Seele stehen wir gerne zur Verfügung. Bitte kontaktieren Sie uns unter der Telefonnummer +43 664 434 2127 (Mo-Fr 9:00 - 16:30) oder <span class="mail_link">webdesign (at) digitaleseele (dot) at</span>. 
-            </p>
+            <form method="POST" class="">
+            <div class="contactform">
+              <div id="name">
+                <label for="floatingInputGrid" class="bg-success input_title">Ihr Name</label>
+                <input type="text" class="form-control" placeholder="Ihr Name" name="namen"> 
+              </div>
+              <div id="firma">
+                <label for="floatingInputGrid" class="bg-success input_title">Firma</label>
+                <input type="text" class="form-control" placeholder="Firma" name="firma"> 
+              </div>
+              <div id="email">
+                <label for="floatingInputGrid" class="bg-success input_title">email</label>
+                <input type="text" class="form-control" placeholder="email" name="email"> 
+              </div>
+              <div id="phone">
+                <label for="floatingInputGrid" class="bg-success input_title">Telefonnummer</label>
+                <input type="text" class="form-control" placeholder="Telefonnummer" name="phone"> 
+              </div>
+              <div id="theme">
+                <label for="floatingInputGrid" class="bg-success input_title">Thema Ihres Anliegens</label>
+                <input type="text" class="form-control" placeholder="Thema Ihres Anliegens" name="theme"> 
+              </div>
+              <div id="details">
+                <label for="floatingInputGrid" class="bg-success input_title">Details Ihres Anliegens</label>
+                <textarea id="description_details" name="description_details" rows="7" ><?php echo $details_ku; ?>
+                </textarea> 
+              </div>
+              <div id="checkbox">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDisabled" required>
+                <label class="form-check-label" for="flexCheckDisabled">
+                  JA, ich stimme zu, dass meine Daten verarbeitet werden.
+                </label>
+              </div>
+              <div id="button">
+                <input type="submit" name="sendEmail" class="form-control btn btn-primary mt-2 button_shadow" value="Anfrage absenden" /> 
+              </div>
+            </div>
+            
           </div>
-          <form method="POST">
-            <input type="submit" name="sendEMail" class="form-control btn btn-primary mt-2 button_shadow" value="Button1" />           
+          
           </form>
+          
         </div>
 
       </div>

@@ -12,7 +12,6 @@
    <!-- <link rel="stylesheet" href="components/css/styles.css"> -->
     <link rel="stylesheet" href="components/css/webdesign_styles.css">
     <link rel="stylesheet" href="components/css/contact.css">
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Webdesign Digitale Seele</title>
 </head>
@@ -63,24 +62,9 @@
 </nav>
 <!-- Navbar -->
 
-<!-- <section id="startoffer">
-  <div class="webintro">
-    <p class="tex_intro">
-      "Mit unserer FullStack-Webentwicklung bei <span class="firma">Webdesign Digitale Seele</span> erhalten Sie nicht nur eine Website, sondern eine lebendige digitale Erfahrung. Von der Benutzeroberfläche bis zur Datenbank sorgen wir dafür, dass Ihre Online-Präsenz nicht nur funktioniert, sondern auch eine authentische digitale Seele besitzt."
-    </p>
-  </div>
-  <div class="vorstellung">
-    
-    <p class="maintext">
-    Webdesign Digitale Seele bietet ein umfassendes Paket an Dienstleistungen im Bereich Webdesign. Unser Schwerpunkt liegt auf Fullstack-Webentwicklung, wobei wir modernste Technologien einsetzen, um innovative Projekte zu realisieren. Von der Konzeption bis zur Umsetzung legen wir großen Wert auf responsive Webseiten, die auf allen Geräten eine optimale Nutzererfahrung bieten. Dabei steht ein ansprechendes Design im Vordergrund, das die individuellen Anforderungen und das Markenimage unserer Kunden widerspiegelt. Sowohl das Backend als auch das Frontend unserer Projekte werden sorgfältig entwickelt, um maximale Funktionalität und Benutzerfreundlichkeit zu gewährleisten. Mit Webdesign Digitale Seele erhalten Sie nicht nur eine Website, sondern eine maßgeschneiderte Lösung, die Ihr Unternehmen erfolgreich im digitalen Raum präsentiert.
-    </p>
-    
-  </div>
-</section> -->
-
 <section id="startframe">
 <div class="image_pagetext">
-  <img src="components/media/background/Venedig 2023-657ae36d16e11.jpg" alt="" />
+  <img src="components/media/background/Thassos (Urlaub) am 10.06.2010 um 16.06.26 14988.cr2_compressed.JPEG" alt="" />
   <div class="caption_boldtext">
     <p>
       "Mit unserer FullStack-Webentwicklung bei Webdesign Digitale Seele erhalten Sie nicht nur eine Website, sondern eine lebendige digitale Erfahrung. Von der Benutzeroberfläche bis zur Datenbank sorgen wir dafür, dass Ihre Online-Präsenz nicht nur funktioniert, sondern auch eine authentische digitale Seele besitzt."
@@ -91,6 +75,14 @@
     <p>
       Webdesign Digitale Seele bietet ein umfassendes Paket an Dienstleistungen im Bereich Webdesign. Unser Schwerpunkt liegt auf Fullstack-Webentwicklung, wobei wir modernste Technologien einsetzen, um innovative Projekte zu realisieren. Von der Konzeption bis zur Umsetzung legen wir großen Wert auf responsive Webseiten, die auf allen Geräten eine optimale Nutzererfahrung bieten. Dabei steht ein ansprechendes Design im Vordergrund, das die individuellen Anforderungen und das Markenimage unserer Kunden widerspiegelt. Sowohl das Backend als auch das Frontend unserer Projekte werden sorgfältig entwickelt, um maximale Funktionalität und Benutzerfreundlichkeit zu gewährleisten. Mit Webdesign Digitale Seele erhalten Sie nicht nur eine Website, sondern eine maßgeschneiderte Lösung, die Ihr Unternehmen erfolgreich im digitalen Raum präsentiert.
     </p>
+  </div>
+  <div id="startpage_grid">
+    <div id="left_pic" class="text-center">
+      <img src = "components/media/background/Thassos (Urlaub) am 10.06.2010 um 16.06.26 14988.cr2_compressed.JPEG" alt="Bild links">
+    </div>
+    <div id="right_pic" class="text-center">
+      <img src = "components/media/background/Thassos (Urlaub) am 10.06.2010 um 16.06.26 14988.cr2_compressed.JPEG" alt="Bild links">
+    </div>
   </div>
 </section>
 
