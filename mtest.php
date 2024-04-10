@@ -20,6 +20,10 @@ require_once "vendor/autoload.php";
   // { echo "\nPasst! Schau mal in dein Postfach Spiderman ist da!\n"; }
   // else
   // { echo "\nERROR! Ein interner Fehler ist aufgetreten! Die E-Mail konnte nicht korrekt zugestellt werden\n"; }
+  if(sendEMail('office@webdesign.digitaleseele.at', 'Office WebDesign', 'Kundenanfrage webdesign.digitaleseele.at!', '<h1>Spiderman!</h1>', $mailtext, array("Spiderman.png" => "/path/to/img.png"))) 
+  { echo "\nPasst! Schau mal in dein Postfach Spiderman ist da!\n"; }
+  else
+  { echo "\nERROR! Ein interner Fehler ist aufgetreten! Die E-Mail konnte nicht korrekt zugestellt werden\n"; }
 
 
   

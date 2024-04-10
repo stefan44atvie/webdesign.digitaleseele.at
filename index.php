@@ -17,6 +17,7 @@
 <body class="indexpage">
 <nav class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid w-100">
+  <div class="container-fluid">
     <a class="navbar-brand" href="index.php">
         <img src = "components/media/logo/D&S_Logo_200x115.jpg" height="20px" alt ="menu">
     </a>
@@ -52,11 +53,10 @@
     </div>
   </div>
 </nav>
-<!-- Navbar -->
 
 <section id="firstpage">
     <div id="intro_show">
-      <h2 class="display-4">Stefan Rüdenauer</h2>
+      <h2 class="display-4">Stefan Rüdenauer</h2> <!-- class="display-4" -->
     </div>
 </section>
 

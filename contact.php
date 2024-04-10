@@ -14,28 +14,24 @@
     <title>Webdesign Digitale Seele</title>
 </head>
 <body class="contactpage">
-<nav id="main-navbar" class="navbar navbar-expand-md fixed-top bg-white shadow-0">
-  <!-- Container wrapper -->
+<nav class="navbar navbar-expand-lg bg-light fixed-top">
   <div class="container-fluid">
-    <!-- Toggle button -->
-    <button data-mdb-collapse-init class="navbar-toggler" type="button" data-mdb-toggle="collapse"
-            data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-      <i class="fas fa-bars"></i>
+    <a class="navbar-brand" href="index.php">
+        <img src = "components/media/logo/D&S_Logo_200x115.jpg" height="20px" alt ="menu">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
     </button>
-
-    <!-- Collapsible wrapper -->
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-    <a class="navbar-brand me-1" href="index.php"><img src="components/media/logo/D&S_Logo_200x115.jpg" height="20px" alt="Logo" loading="lazy" /></a>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-            <a class="nav-link text-dark" href="weoffer.php">Was wir bieten</a>
+          <a class="nav-link active" aria-current="page" href="weoffer.php#">Was wir bieten</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-dark" href="weoffer.php#offers">Spezialisierung</a>
+          <a class="nav-link" href="weoffer.php#offers">Spezialisierung</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-dark" href="weoffer.php#vorteile">Ihre Vorteile</a>
+            <a class="nav-link" href="weoffer.php#vorteile">Ihre Vorteile</a>
         </li>
         <li class="nav-item">
             <a class="nav-link text-dark" href="weoffer.php#ablauf">Der Ablauf</a>
@@ -51,12 +47,9 @@
         <li class="nav-item">
             <a class="nav-link text-dark" href="contact.php">Kontakt</a>
         </li>
-        </ul>
+      </ul>
     </div>
-    <!-- Collapsible wrapper -->
-
   </div>
-  <!-- Container wrapper -->
 </nav>
 <!-- Navbar -->
 
