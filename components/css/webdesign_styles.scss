@@ -22,10 +22,10 @@
     display: flex;
     justify-content:left;    
     margin-left:40%;
-	color:white;
+	  color:white;
    
 	#intro_show{
-        margin-top:40%;
+        margin-top:110%;
         // place-self: start;
 
     }
@@ -53,20 +53,20 @@
 }
 
 .text {
-    font-family: "Yanone Kaffeesatz";
-	font-size: 90px;
+  font-family: "Yanone Kaffeesatz";
+	font-size: 30px;
 	display: flex;
 	position: absolute;
-	bottom: 25vh;
+	bottom: 30vh;
 	left: 50%;
 	transform: translateX(-50%);
-    word-break: normal;
+  word-break: normal;
 	color:white;
 	// user-select: none;
 
 	.wrapper {
-		padding-left: 10px;
-		padding-right: 10px;
+		padding-left: 5px;
+		padding-right: 5px;
 		padding-top: 20px;
 		
 		.letter {
@@ -88,8 +88,6 @@
 			}
 		}
 	}
-
-    
 }
 
 // PAGE 1
@@ -97,8 +95,9 @@
 .indexpage{
 	background: url("../../components/media/background/Vodice\ 2017-65709a86ced7e.jpeg");
 	background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:60vh;
 }
 .contactpage{
 	  background: url("../../components/media/background/Thassos-657aecf47322e.jpg");
@@ -1846,4 +1845,7 @@ img#bild {
     font-size:large;
       // font-family: Arial, Helvetica, sans-serif;
   }
+}
+.hp_title1{
+  font-size:25px;
 }

@@ -22,7 +22,7 @@
   color: white;
 }
 #firstpage #intro_show {
-  margin-top: 40%;
+  margin-top: 110%;
 }
 
 .lead {
@@ -43,18 +43,18 @@
 
 .text {
   font-family: "Yanone Kaffeesatz";
-  font-size: 90px;
+  font-size: 30px;
   display: flex;
   position: absolute;
-  bottom: 25vh;
+  bottom: 30vh;
   left: 50%;
   transform: translateX(-50%);
   word-break: normal;
   color: white;
 }
 .text .wrapper {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
   padding-top: 20px;
 }
 .text .wrapper .letter {
@@ -79,6 +79,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 60vh;
 }
 
 .contactpage {
@@ -1500,4 +1501,8 @@ img#bild2 {
   font-family: Raleway;
   font-style: normal;
   font-size: large;
+}
+
+.hp_title1 {
+  font-size: 25px;
 }/*# sourceMappingURL=webdesign_styles.css.map */

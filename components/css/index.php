@@ -15,7 +15,7 @@
     <title>Webdesign Digitale Seele</title>
 </head>
 <body class="indexpage">
-<nav class="navbar navbar-expand-lg bg-light fixed-top">
+<nav class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="index.php">
         <img src = "components/media/logo/D&S_Logo_200x115.jpg" height="20px" alt ="menu">
@@ -26,7 +26,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="weoffer.php">Was wir bieten</a>
+          <a class="nav-link active" aria-current="page" href="weoffer.php#">Was wir bieten</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="weoffer.php#offers">Spezialisierung</a>
@@ -56,7 +56,7 @@
 
 <section id="firstpage">
     <div id="intro_show">
-      <h2 class="hp_title1">Stefan Rüdenauer</h2> <!-- class="display-4" -->
+      <h2 class="display-4">Stefan Rüdenauer</h2>
     </div>
 </section>
 
