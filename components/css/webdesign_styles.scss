@@ -25,7 +25,7 @@
 	  color:white;
    
 	#intro_show{
-        margin-top:110%;
+        margin-top:125%;
         // place-self: start;
 
     }
@@ -1849,3 +1849,135 @@ img#bild {
 .hp_title1{
   font-size:25px;
 }
+
+@media only screen          //LANDSCAPE TABLETS
+    and (min-width:768px)
+    and (orientation:landscape) { 
+
+      .hp_title1{
+        font-size:40px;
+        letter-spacing:0.2em;
+      }
+      #firstpage{
+        // display: flex;
+        // justify-content:left;    
+        margin-left:55%;
+        color:white;
+       
+      #intro_show{
+            margin-top:55%;
+            // place-self: start;
+    
+        }
+      }
+
+      .text {
+        // font-family: "Yanone Kaffeesatz";
+        font-size: 50px;
+        // display: flex;
+        // position: absolute;
+        bottom: 30vh;
+        left: 50%;
+        // transform: translateX(-50%);
+        // word-break: normal;
+        color:white;
+        // user-select: none;
+      
+        .wrapper {
+          padding-left: 15px;
+          padding-right: 45px;
+          padding-top: 20px;
+        }
+      }
+
+    }
+
+    @media only screen  //LANDSCAPE SMARTPHONE
+  and (max-width: 950px) 
+  and (orientation: landscape) { 
+
+    .hp_title1{
+      font-size:20px;
+      letter-spacing:0.2em;
+    }
+    #firstpage{
+      // display: flex;
+      // justify-content:left;    
+      margin-left:65%;
+      color:white;
+     
+    #intro_show{
+          margin-top:35%;
+          // place-self: start;
+  
+      }
+    }
+
+    .text {
+      // font-family: "Yanone Kaffeesatz";
+      font-size: 30px;
+      // display: flex;
+      // position: absolute;
+      bottom: 30vh;
+      left: 50%;
+      // transform: translateX(-50%);
+      // word-break: normal;
+      color:white;
+      // user-select: none;
+    
+      .wrapper {
+        padding-left: 15px;
+        padding-right: 25px;
+        padding-top: 20px;
+      }
+    }
+
+
+
+
+  }
+
+  //Startseite Medium Displays PORTRAIT
+  @media only screen 
+  and (min-width:1200px)
+  and (orientation:landscape) { 
+
+    .hp_title1{
+      font-size:55px;
+      letter-spacing:0.2em;
+    }
+
+    #firstpage{
+      // display: flex;
+      // justify-content:left;    
+      margin-left:55%;
+      color:white;
+     
+    #intro_show{
+          margin-top:50%;
+          // place-self: start;
+  
+      }
+    }
+
+    .text {
+      // font-family: "Yanone Kaffeesatz";
+      font-size: 75px;
+      // display: flex;
+      // position: absolute;
+      bottom: 27vh;
+      left: 50%;
+      // transform: translateX(-50%);
+      // word-break: normal;
+      color:white;
+      // user-select: none;
+    
+      .wrapper {
+        padding-left: 25px;
+        padding-right: 45px;
+        padding-top: 20px;
+      }
+    }
+
+
+  }

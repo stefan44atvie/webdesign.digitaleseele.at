@@ -22,7 +22,7 @@
   color: white;
 }
 #firstpage #intro_show {
-  margin-top: 110%;
+  margin-top: 125%;
 }
 
 .lead {
@@ -1505,4 +1505,77 @@ img#bild2 {
 
 .hp_title1 {
   font-size: 25px;
+}
+
+@media only screen and (min-width: 768px) and (orientation: landscape) {
+  .hp_title1 {
+    font-size: 40px;
+    letter-spacing: 0.2em;
+  }
+  #firstpage {
+    margin-left: 55%;
+    color: white;
+  }
+  #firstpage #intro_show {
+    margin-top: 55%;
+  }
+  .text {
+    font-size: 50px;
+    bottom: 30vh;
+    left: 50%;
+    color: white;
+  }
+  .text .wrapper {
+    padding-left: 15px;
+    padding-right: 45px;
+    padding-top: 20px;
+  }
+}
+@media only screen and (max-width: 950px) and (orientation: landscape) {
+  .hp_title1 {
+    font-size: 20px;
+    letter-spacing: 0.2em;
+  }
+  #firstpage {
+    margin-left: 65%;
+    color: white;
+  }
+  #firstpage #intro_show {
+    margin-top: 35%;
+  }
+  .text {
+    font-size: 30px;
+    bottom: 30vh;
+    left: 50%;
+    color: white;
+  }
+  .text .wrapper {
+    padding-left: 15px;
+    padding-right: 25px;
+    padding-top: 20px;
+  }
+}
+@media only screen and (min-width: 1200px) and (orientation: landscape) {
+  .hp_title1 {
+    font-size: 55px;
+    letter-spacing: 0.2em;
+  }
+  #firstpage {
+    margin-left: 55%;
+    color: white;
+  }
+  #firstpage #intro_show {
+    margin-top: 50%;
+  }
+  .text {
+    font-size: 75px;
+    bottom: 27vh;
+    left: 50%;
+    color: white;
+  }
+  .text .wrapper {
+    padding-left: 25px;
+    padding-right: 45px;
+    padding-top: 20px;
+  }
 }/*# sourceMappingURL=webdesign_styles.css.map */
