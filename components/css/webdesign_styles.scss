@@ -109,7 +109,7 @@
 }
 
 .introtext{
-	margin-top:0px;
+	margin-top:150px;
 	padding-top:40px;
 	// border:1px solid grey;
 	margin-left:50px;
@@ -120,6 +120,36 @@
   background-repeat: no-repeat;
   background-size: cover;
 	// background-position-y: 150px;
+}
+
+#startpage_grid{
+  padding-top:400px;
+  display: grid;
+	grid-template-columns:50% 50%;
+	row-gap:3em;
+	// column-gap:2em;
+	// background-color: aqua;
+	padding-left:10px;
+  padding-bottom:20px;
+
+  #left_pic{
+    // background-color: #47bcd4;
+    grid-column: 1/span 1;
+
+    img{
+      width:30vw;
+      height:30vh;
+    }
+  } 
+  #right_pic{
+    // background-color: aqua;
+    grid-column:2/span 1;
+
+    img{
+      width:30vw;
+      height:30vh;
+    }
+  }
 }
 
 #vorteile{
@@ -164,25 +194,26 @@
   }
 #vorteilsintro_box{
 	padding-left:10px;
-	padding-right:10px;
+	padding-right:5px;
 }
 
 .text_vorteile_intro{
 	font-family:$standardtext;
-	text-indent: 50px;
+	// text-indent: 50px;
 	// letter-spacing: 2px;
-	font-size:large;
+	font-size:medium;
 }
 
 .text_vorteile{
 	font-family:$standardtext;
 	// text-indent: 50px;
 	letter-spacing: 2px;
-	font-size:large;
+	font-size:medium;
 }
 .vorteil_titel{
 	font-weight: bold;
 	font-family: $titlebold;
+  font-size:medium
 }
 .vorteile_intro{
 	padding-bottom:40px;
@@ -317,7 +348,9 @@
 }
 #offers{
 	min-height:100vh;
+  width:100vw;
 	background-color: black;
+  margin-top:100px;
 	padding-top:60px;
 	padding-left:10px;
 	padding-bottom:30px;
@@ -325,22 +358,22 @@
 
 	#stackdevelop{
 		display:grid;
-		grid-template-columns: 50% 50%;
+		grid-template-columns: 100vw;
 		// width:100%;
 		// padding:10px;
-		margin-right:10px;
-		grid-gap:70px;
+		// margin-right:10px;
+		grid-gap:40px;
 		align-items:flex-start;
 		border:1px solid black;
 		border-radius:25px;
 	
 		#textfirst{
-			grid-column: 1/ span 2;
+			grid-column: 1/ span 1;
 			color:white;
 			font-family:$standardtext;
-			font-size:large;
+			font-size:small;
 			letter-spacing: 2px;
-			padding-right:5px;
+			padding-right:10px;
 			// background-color: antiquewhite;
 		}
 		#picleft{
@@ -348,10 +381,10 @@
 			// background-color: aqua;
 		}
 		#textright{
-			grid-column:2/ span 1;
+			grid-column:1/ span 1;
 			letter-spacing: 2px;
 			// text-align:center;
-			padding-right:20px;
+			padding-right:10px;
 
 			#inline_text{
 				// display:grid;
@@ -441,13 +474,14 @@
 			// background-color: blue;
 		}
 		#picright{
-			grid-column:2/ span 1;
+			grid-column:1/ span 1;
 			// background-color: azure;
 		}
 		#textende{
 			// padding-top:50%;
+      padding-left:5px;
 			letter-spacing: 2px;
-			grid-column:1/span 2;
+			grid-column:1/span 1;
 		}
 	}
 
@@ -468,8 +502,8 @@
 
   img{
     position:relative;
-    width:100%;
-    height:100%;
+    width:100vw;
+    height:60vh;
     filter:blur(1.5px);
     // opacity:0.3;
   }
@@ -482,15 +516,15 @@
 }
 .text_ablauf_intro{
 	font-family:$standardtext;
-	font-size:large;
+	font-size:medium;
 	color:white;
-	text-indent: 50px;
+	// text-indent: 50px;
 	letter-spacing: 2px;
 }
 .text_ablauf{
 	margin-left:50px;
 	font-family:$standardtext;
-	font-size:large;
+	font-size:medium;
 	color:white;
 	// text-indent: 50px;
 	letter-spacing: 2px;
@@ -502,7 +536,7 @@
 .text_offers{
 	font-family:$standardtext;
 	font-style: italic;
-	font-size:large;
+	font-size:small;
 	color:white;
 }
 .text_offers_standard{
@@ -1813,7 +1847,7 @@ img#bild {
     }
   }
   .caption_introtext{
-    top: 180px;
+    top: 280px;
     left: 0px;
     position:absolute;
     width:100%;

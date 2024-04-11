@@ -87,7 +87,7 @@
         </p>
       </div>
       <div id="picleft">
-        <img src="components/media/front1.png" id="bild2" width="500px">
+        <img src="components/media/front1.png" id="bild2" width="200px">
       </div>
       <div id="textright" class="text_animation">
         <div id="inline_text">
@@ -112,7 +112,7 @@
         </div>
       </div>
       <div id="picright">
-        <img src="components/media/back2.png" id="bild" width="500px">
+        <img src="components/media/back2.png" id="bild" width="200px">
       </div>
       <div id="textende">
         <p class="text_offers_standard">
@@ -129,7 +129,7 @@
         </p>
     </div>
     <div class="vorteile_intro">
-        <h4 class="intro">Die Zusammenarbeit mit Webdesign Digitale Seele bietet folgende Vorteile:</h4>
+        <h5 class="intro">Die Zusammenarbeit mit Webdesign Digitale Seele bietet folgende Vorteile:</h4>
     </div>
     <div class="gridtestvorteil">
         <div class="vor1pic">
@@ -177,7 +177,7 @@
 
 <section id = "ablauf">
     <div id ="ablauf_box">
-        <p class="text_ablauf_intro "> 
+        <p class="text_ablauf_intro"> 
             Der Ablauf einer Zusammenarbeit mit uns bei Webdesign Digitale Seele ist darauf ausgerichtet, Ihnen einen reibungslosen und transparenten Prozess zu bieten:
         </p>
         <br>

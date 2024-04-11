@@ -91,7 +91,7 @@
 }
 
 .introtext {
-  margin-top: 0px;
+  margin-top: 150px;
   padding-top: 40px;
   margin-left: 50px;
   height: 45vh;
@@ -99,6 +99,29 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#startpage_grid {
+  padding-top: 400px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  row-gap: 3em;
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+#startpage_grid #left_pic {
+  grid-column: 1/span 1;
+}
+#startpage_grid #left_pic img {
+  width: 30vw;
+  height: 30vh;
+}
+#startpage_grid #right_pic {
+  grid-column: 2/span 1;
+}
+#startpage_grid #right_pic img {
+  width: 30vw;
+  height: 30vh;
 }
 
 #vorteile {
@@ -135,24 +158,24 @@
 
 #vorteilsintro_box {
   padding-left: 10px;
-  padding-right: 10px;
+  padding-right: 5px;
 }
 
 .text_vorteile_intro {
   font-family: Raleway;
-  text-indent: 50px;
-  font-size: large;
+  font-size: medium;
 }
 
 .text_vorteile {
   font-family: Raleway;
   letter-spacing: 2px;
-  font-size: large;
+  font-size: medium;
 }
 
 .vorteil_titel {
   font-weight: bold;
   font-family: RalewayBold;
+  font-size: medium;
 }
 
 .vorteile_intro {
@@ -248,7 +271,9 @@
 
 #offers {
   min-height: 100vh;
+  width: 100vw;
   background-color: black;
+  margin-top: 100px;
   padding-top: 60px;
   padding-left: 10px;
   padding-bottom: 30px;
@@ -256,28 +281,27 @@
 }
 #offers #stackdevelop {
   display: grid;
-  grid-template-columns: 50% 50%;
-  margin-right: 10px;
-  grid-gap: 70px;
+  grid-template-columns: 100vw;
+  grid-gap: 40px;
   align-items: flex-start;
   border: 1px solid black;
   border-radius: 25px;
 }
 #offers #stackdevelop #textfirst {
-  grid-column: 1/span 2;
+  grid-column: 1/span 1;
   color: white;
   font-family: Raleway;
-  font-size: large;
+  font-size: small;
   letter-spacing: 2px;
-  padding-right: 5px;
+  padding-right: 10px;
 }
 #offers #stackdevelop #picleft {
   grid-column: 1/span 1;
 }
 #offers #stackdevelop #textright {
-  grid-column: 2/span 1;
+  grid-column: 1/span 1;
   letter-spacing: 2px;
-  padding-right: 20px;
+  padding-right: 10px;
 }
 #offers #stackdevelop #textright #inline_text {
   display: inline-block;
@@ -332,11 +356,12 @@
   text-align: left;
 }
 #offers #picright {
-  grid-column: 2/span 1;
+  grid-column: 1/span 1;
 }
 #offers #textende {
+  padding-left: 5px;
   letter-spacing: 2px;
-  grid-column: 1/span 2;
+  grid-column: 1/span 1;
 }
 
 #startoffer {
@@ -354,8 +379,8 @@
 }
 #startframe img {
   position: relative;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 60vh;
   filter: blur(1.5px);
 }
 
@@ -366,16 +391,15 @@
 
 .text_ablauf_intro {
   font-family: Raleway;
-  font-size: large;
+  font-size: medium;
   color: white;
-  text-indent: 50px;
   letter-spacing: 2px;
 }
 
 .text_ablauf {
   margin-left: 50px;
   font-family: Raleway;
-  font-size: large;
+  font-size: medium;
   color: white;
   letter-spacing: 2px;
 }
@@ -387,7 +411,7 @@
 .text_offers {
   font-family: Raleway;
   font-style: italic;
-  font-size: large;
+  font-size: small;
   color: white;
 }
 
@@ -1478,7 +1502,7 @@ img#bild2 {
   font-style: italic;
 }
 .image_pagetext .caption_introtext {
-  top: 180px;
+  top: 280px;
   left: 0px;
   position: absolute;
   width: 100%;
