@@ -90,6 +90,44 @@
   min-height: 100vh;
 }
 
+.ablauf_text_intro {
+  font-size: medium;
+  color: white;
+  letter-spacing: 2px;
+  font-family: Raleway;
+}
+
+.ablauf_intro {
+  padding-top: 20px;
+  padding-left: 5px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.ablauf_text {
+  padding-top: 10px;
+  padding-left: 25px;
+  padding-right: 10px;
+}
+
+.ablauf_absatz {
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 10px;
+  color: white;
+  font-family: Raleway;
+}
+
+.boldintro_title {
+  font-family: RalewayBold;
+}
+
+#pagefull {
+  min-height: -moz-min-content;
+  min-height: min-content;
+  background-color: black;
+}
+
 .introtext {
   margin-top: 150px;
   padding-top: 40px;
@@ -129,6 +167,57 @@
   min-height: 100vh;
   padding-left: 10px;
   padding-bottom: 30px;
+}
+
+#vorteile_box {
+  min-height: -moz-min-content;
+  min-height: min-content;
+  background-color: white;
+}
+
+#section_vorteile {
+  min-height: -moz-min-content;
+  min-height: min-content;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.intro_box {
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+.text_vorteilsintro {
+  padding-top: 5px;
+  font-family: Raleway;
+  font-size: large;
+}
+
+.text_vorteile {
+  font-family: Raleway;
+  font-style: italic;
+}
+
+#grid_vorteile {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  row-gap: 1em;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#grid_vorteile .logopic1 {
+  grid-column: 1/span 1;
+  position: relative;
+  padding-left: 20px;
+}
+#grid_vorteile .logopic1 img {
+  position: relative;
+  width: 100%;
+}
+#grid_vorteile .vorteil1 {
+  padding-left: 5px;
+  grid-column: 2/span 1;
 }
 
 .vorteile_header {
@@ -406,6 +495,7 @@
 
 .title_ablauf {
   font-family: RalewayBold;
+  font-size: medium;
 }
 
 .text_offers {
@@ -1532,6 +1622,52 @@ img#bild2 {
 }
 
 @media only screen and (min-width: 768px) and (orientation: landscape) {
+  #grid_vorteile {
+    display: grid;
+    grid-template-columns: 10% 30% 50%;
+    row-gap: 1em;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #grid_vorteile .logopic1 {
+    grid-column: 2/span 1;
+    position: relative;
+    padding-left: 20px;
+    text-align: end;
+  }
+  #grid_vorteile .logopic1 img {
+    position: relative;
+    width: 50%;
+  }
+  #grid_vorteile .vorteil1 {
+    padding-left: 5px;
+    grid-column: 3/span 1;
+  }
+  .ablauf_text_intro {
+    font-size: large;
+    color: white;
+    letter-spacing: 3px;
+  }
+  .ablauf_absatz {
+    padding-left: 320px;
+    padding-right: 10px;
+    color: white;
+  }
+  .text_ablauf {
+    font-size: large;
+    padding-bottom: 10px;
+  }
+  .text_vorteile_intro {
+    font-family: Raleway;
+    font-size: large;
+  }
+  .vorteil_titel {
+    font-weight: bold;
+    font-family: RalewayBold;
+    font-size: medium;
+    color: black;
+  }
   .hp_title1 {
     font-size: 40px;
     letter-spacing: 0.2em;
@@ -1554,8 +1690,34 @@ img#bild2 {
     padding-right: 45px;
     padding-top: 20px;
   }
+  #startframe img {
+    position: relative;
+    width: 100vw;
+    height: 45vh;
+    filter: blur(1.5px);
+  }
+  .introtext {
+    margin-top: 60px;
+    padding-top: 20px;
+    margin-left: 50px;
+  }
+  #startpage_grid {
+    padding-top: 80px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    row-gap: 3em;
+    padding-left: 10px;
+    padding-bottom: 20px;
+  }
+  #startpage_grid #left_pic {
+    grid-column: 1/span 1;
+  }
+  #startpage_grid #left_pic img {
+    width: 30vw;
+    height: 30vh;
+  }
 }
-@media only screen and (max-width: 950px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (orientation: landscape) and (max-width: 950px) and (orientation: landscape) {
   .hp_title1 {
     font-size: 20px;
     letter-spacing: 0.2em;
@@ -1579,7 +1741,29 @@ img#bild2 {
     padding-top: 20px;
   }
 }
-@media only screen and (min-width: 1200px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (orientation: landscape) and (min-width: 1200px) and (orientation: landscape) {
+  #grid_vorteile {
+    display: grid;
+    grid-template-columns: 10% 30% 40%;
+    row-gap: 1em;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #grid_vorteile .logopic1 {
+    grid-column: 2/span 1;
+    position: relative;
+    padding-left: 20px;
+    text-align: end;
+  }
+  #grid_vorteile .logopic1 img {
+    position: relative;
+    width: 50%;
+  }
+  #grid_vorteile .vorteil1 {
+    padding-left: 5px;
+    grid-column: 3/span 1;
+  }
   .hp_title1 {
     font-size: 55px;
     letter-spacing: 0.2em;
@@ -1601,5 +1785,11 @@ img#bild2 {
     padding-left: 25px;
     padding-right: 45px;
     padding-top: 20px;
+  }
+  #startframe img {
+    position: relative;
+    width: 100vw;
+    height: 45vh;
+    filter: blur(1.5px);
   }
 }/*# sourceMappingURL=webdesign_styles.css.map */

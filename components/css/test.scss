@@ -1,0 +1,114 @@
+* { padding: 0; margin: 0; }
+
+@font-face {
+	font-family: Raleway;
+	src: url(../fonts/Raleway-Regular.ttf);
+  }
+@font-face {
+	font-family: RalewayBold;
+	src: url(../fonts/Raleway-Bold.ttf);
+}
+
+$standardtext:Raleway;
+$boldtext:RalewayBold;
+
+#myoffers{
+    min-height:min-content;
+    width:100vw;
+	background-color: black;
+    // margin-top:100px;
+	padding-top:30px;
+	padding-left:5px;
+    padding-right:10px;
+	padding-bottom:30px;
+	box-shadow: 0 12px 16px 17px rgba(0,0,0,0.24),18px 17px 50px 5px rgba(0,0,0,0.19);
+
+}
+.intro_box{
+    padding-left:10px;
+    padding-right:5px;
+    .dev_introtext{
+        font-size:medium;
+        color:white;
+        // text-indent: 50px;
+        font-family:$standardtext;
+    }
+  }
+
+#development_grid{
+    display:grid;
+	grid-template-columns: 100%;
+	// width:100%;
+	// padding:10px;
+	// margin-right:10px;
+	grid-gap:20px;
+	align-items:flex-start;
+	border:1px solid black;
+	border-radius:25px;
+    #pic_first{
+        grid-column:1/span 1;
+        
+        img#bild2{
+            border: 5px solid gold;
+            width:90vw;
+            // height:50vh;
+            margin-top:20px;
+            margin-bottom:20px;
+            margin-left:5px;
+            margin-right:5px;
+            // transform:skew(33deg,5deg);
+            box-shadow: 0 15px 15px 1px rgba(0, 0, 0, 0.3), 15px 0 15px 1px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+          }
+    }
+    #text_second{
+        grid-column:1/span 1;
+    }
+    #text_first{
+        grid-column:1/span 1;
+    }
+    #pic_second{
+        grid-column:1/span 1;
+        img#bild {
+            border: 5px solid blue;
+            width:90vw;
+            // width:50vw;
+            // height:50vh;
+            // transform:skew(-31deg,-6deg);
+            box-shadow: 0 15px 15px 1px rgba(0, 0, 0, 0.3), 15px 0 15px 1px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+            margin-top:20px;
+            margin-bottom:20px;
+            margin-left:5px;
+            margin-right:5px;
+
+          }
+    }
+    
+}
+.myoffers_text{
+    font-family:$standardtext;
+	font-style: italic;
+	font-size:medium;
+	color:white;
+}
+
+
+
+
+@media only screen          //LANDSCAPE TABLETS
+    and (min-width:768px)
+    and (orientation:landscape) { 
+
+        
+
+    }
+
+    @media only screen 
+  and (min-width:1200px)
+  and (orientation:landscape) { 
+
+
+    
+
+  }
